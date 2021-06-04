@@ -22,6 +22,7 @@
     "start": "node ./bin/www&",
     "test": "curl localhost:3000",
     "pretest": "npm start && sleep 3"
+    "dev": "next -p 3000"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
