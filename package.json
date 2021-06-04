@@ -20,7 +20,7 @@
   "homepage": "https://github.com/knakayama/aws-github-devops-hands-on-sample-app#readme",
   "scripts": {
     "start": "node ./bin/www&",
-    "test": "curl localhost:8080",
+    "test": "curl localhost:3000",
     "pretest": "npm start && sleep 3"
   },
   "dependencies": {
